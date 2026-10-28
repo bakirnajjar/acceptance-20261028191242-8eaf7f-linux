@@ -1,0 +1,8 @@
+[project]
+name = "acceptance-pricing"
+version = "0.1.0"
+description = "Synthetic order-pricing sample for Futuristic acceptance tests."
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["."]
